@@ -1,0 +1,25 @@
+# first R try
+# let's calculate some numbers
+24 + 67
+# assign
+sheri <- 24 + 67
+# another assign 
+ale <- 10+10
+# sherika's thesis
+# function()
+sherika <- c(10, 50, 70, 90, 200)
+alessio <- c(5, 10, 20, 40, 80) 
+#plot
+plot(alessio, sherika)
+#higher dimension
+plot(alessio, sherika, cex=5)
+# colour
+plot(alessio, sherika, cex=5, col="green", pch=19)
+plot(alessio, sherika, cex=5, col="green", pch=19, ylab="gonorrhea bacterium", xlab="shark cut")
+plot(alessio, sherika, cex=5, col="green", pch=19, ylab="gonorrhea bacterium", xlab="shark cut", cex.lab=2)
+plot(alessio, sherika, cex=5, col="green", pch=19, ylab="gonorrhea bacterium", xlab="shark cut", cex.lab=2, cex.axis=2)
+plot(alessio, sherika, cex=5, col="green", pch=19, ylab="gonorrhea bacterium", xlab="shark cut", cex.lab=2, cex.axis=2)
+# title
+plot(alessio, sherika, cex=5, col="green", pch=19, ylab="gonorrhea bacterium", xlab="shark cut", cex.lab=2, cex.axis=2, main="suicidio")
+# correlation
+cor(alessio, sherika)
